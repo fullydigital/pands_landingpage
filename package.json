@@ -1,8 +1,7 @@
 {
 	"name": "pands_landingpage",
 	"version": "1.0.0",
-	"description": "",
-	"main": "app.js",
+	"description": "Landingpage für P&S Fahrzeugtechnik",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "parcel index.html",
