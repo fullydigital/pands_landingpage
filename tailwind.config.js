@@ -1,9 +1,11 @@
 module.exports = {
-	purge: [],
-	darkMode: false, // or 'media' or 'class'
-	theme: {},
-	variants: {
-		extend: {}
+	content: [ './index.html' ],
+	theme: {
+		extend: {
+			colors: {
+				'ps-blue': '#004B93'
+			}
+		}
 	},
 	plugins: []
 };
