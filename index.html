@@ -11,10 +11,10 @@
         <a href="#" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
             <!-- Logo-->
             <div class="rounded bg-purple-400 text-white font-bold w-10 h-10 flex justify-center text-3xl pt-0.5">A</div>
-            <div class="text-gray-700 font-semibold ml-2">Alphabet Tech</div>
+            <div class="text-gray-700 font-semibold ml-2">P&S Fahrzeugtechnik</div>
         </a>
         <!-- Navbar Toggle Button -->
-        <button x-on:click="console.log('Hier wurde geklickt')" class="block lg:hidden text-gray-700 p-2 rounded hover:border focus:border focus:bg-gray-100 my-2 mr-5" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+        <button x-on:click="showMenu = !showMenu" class="block lg:hidden text-gray-700 p-2 rounded hover:border focus:border focus:bg-gray-100 my-2 mr-5" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
         <!-- Nav Links-->
@@ -38,7 +38,7 @@
             </li>
         </ul>
     </div>
-</nav>
+    </nav>
     <div class="text-white bg-ps-blue h-screen flex flex-col">
       <div class="m-auto">
         <img src="./assets/tools.svg" class="w-64 m-auto mb-12">
