@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>P&S Fahrzeugtechnik</title>
-    <link rel="stylesheet" href="/index.ea08aa9d.css"><script src="/index.5baa4167.js" defer="">
+
+<head>
+  <title>P&S Fahrzeugtechnik</title>
+  <link rel="stylesheet" href="/index.ea08aa9d.css"><script src="/index.5baa4167.js" defer="">
 </script></head>
-  <body>
-    <nav class="border-b">
+
+<body>
+  <nav class="border-b">
     <div x-data="{showMenu : false}" class="container max-w-screen-lg mx-auto flex justify-between h-14">
-        <!-- Brand-->
-        <a href="#" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
-            <!-- Logo-->
-            <div class="rounded bg-purple-400 text-white font-bold w-10 h-10 flex justify-center text-3xl pt-0.5">A</div>
-            <div class="text-gray-700 font-semibold ml-2">P&S Fahrzeugtechnik</div>
-        </a>
-        <!-- Navbar Toggle Button -->
-        <button x-on:click="showMenu = !showMenu" class="block lg:hidden text-gray-700 p-2 rounded hover:border focus:border focus:bg-gray-100 my-2 mr-5" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-        </button>
-        <!-- Nav Links-->
-        <ul class="hidden lg:flex text-gray-700 text-base mr-3 origin-top" :class="{ 'block absolute top-14 border-b bg-white w-full p-2': showMenu, 'hidden': !showMenu}" id="navbar-main" x-cloak="">
-            <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
-                <a href="#">Laravel</a>
-            </li>
-            <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
-                <a href="#">Livewire</a>
-            </li>
-            <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
-                <a href="#">TailwindCSS</a>
-            </li>
-            <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
-                <a href="#">Alpine JS</a>
-            </li>
-            <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
-                <a href="#">About</a>
-            </li>
-        </ul>
+      <!-- Brand-->
+      <a href="#" class="flex items-center cursor-pointer hover:bg-purple-50 px-2 ml-3">
+        <!-- Logo-->
+        <div class="rounded bg-purple-400 text-white font-bold w-10 h-10 flex justify-center text-3xl pt-0.5">A</div>
+        <div class="text-gray-700 font-semibold ml-2">P&S Fahrzeugtechnik</div>
+      </a>
+      <!-- Navbar Toggle Button -->
+      <button x-on:click="showMenu = !showMenu" class="block lg:hidden text-gray-700 p-2 rounded hover:border focus:border focus:bg-gray-100 my-2 mr-5" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      <!-- Nav Links-->
+      <ul class="hidden lg:flex text-gray-700 text-base mr-3 origin-top" :class="{ 'block absolute top-14 border-b bg-white w-full p-2': showMenu, 'hidden': !showMenu}" id="navbar-main" x-cloak="">
+        <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
+          <a href="#">Laravel</a>
+        </li>
+        <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
+          <a href="#">Livewire</a>
+        </li>
+        <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
+          <a href="#">TailwindCSS</a>
+        </li>
+        <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
+          <a href="#">Alpine JS</a>
+        </li>
+        <li class="px-3 cursor-pointer hover:bg-purple-50 flex items-center hover:text-gray-800" :class="showMenu && 'py-1'">
+          <a href="#">About</a>
+        </li>
+      </ul>
     </div>
-    </nav>
-    <div class="text-white bg-ps-blue h-screen flex flex-col">
-      <div class="m-auto">
-        <img src="/tools.7dd44ad6.svg" class="w-64 m-auto mb-12">
-        <p class="text-4xl">Wir sind bald wieder für Sie da!</p>
-      </div>
-      <div class="m-auto">
-        <h1 class="text-5xl mb-4 lg:text-2xl">P&S Fahrzeugtechnik</h1>
-        <p class="text-4xl mb-4 lg:text-xl">Tel.: 09123 981651</p>
-        <p class="text-4xl lg:text-xl">Email: info@psfahrzeugtechnik.de</p>
-      </div>
+  </nav>
+  <div class="text-white bg-ps-blue h-screen flex flex-col">
+    <div class="m-auto">
+      <img src="/tools.7dd44ad6.svg" class="w-64 m-auto mb-12">
+      <p class="text-4xl">Wir sind bald wieder für Sie da!</p>
     </div>
-  </body>
+    <div class="m-auto">
+      <h1 class="text-5xl mb-4 lg:text-2xl">P&S Fahrzeugtechnik</h1>
+      <p class="text-4xl mb-4 lg:text-xl">Tel.: 09123 981651</p>
+      <p class="text-4xl lg:text-xl">Email: info@psfahrzeugtechnik.de</p>
+    </div>
+  </div>
+</body>
+
 </html>
