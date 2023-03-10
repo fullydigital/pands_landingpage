@@ -42,7 +42,7 @@
     </div>
   </nav>
   <div x-data="carousel()" class="relative">
-    <img class="h-96 w-full object-cover object-center" :src="images[selected]" alt="cars">
+    <img class="h-128 w-full object-cover object-center" :src="images[selected]" alt="cars">
 
     <button @click="if (selected> 0) {selected -= 1} else {selected = images.length - 1}" class="absolute inset-y-0 left-0 px-2 py-[25%] h-full w-8 group hover:bg-gray-500 hover:bg-opacity-75 cursor-pointer">
       <span class="hidden group-hover:block text-gray-50">
