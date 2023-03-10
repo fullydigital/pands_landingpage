@@ -283,6 +283,18 @@ img, video {
   bottom: 0;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -309,12 +321,68 @@ img, video {
   margin-right: .75rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mr-1 {
+  margin-right: .25rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.-ml-28 {
+  margin-left: -7rem;
+}
+
+.mr-28 {
+  margin-right: 7rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-72 {
+  margin-left: 18rem;
+}
+
+.mr-72 {
+  margin-right: 18rem;
+}
+
+.-mt-48 {
+  margin-top: -12rem;
+}
+
+.-mt-40 {
+  margin-top: -10rem;
+}
+
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -343,6 +411,18 @@ img, video {
 
 .h-2 {
   height: .5rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .w-10 {
@@ -377,6 +457,10 @@ img, video {
   cursor: pointer;
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .items-center {
   align-items: center;
 }
@@ -387,6 +471,14 @@ img, video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -425,6 +517,31 @@ img, video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-orange-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+}
+
+.bg-orange-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
+}
+
+.bg-ps-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 75 147 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -513,6 +630,10 @@ img, video {
 .ring-gray-300 {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity));
+}
+
+.hover\:z-50:hover {
+  z-index: 50;
 }
 
 .hover\:border:hover {

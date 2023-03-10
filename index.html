@@ -50,7 +50,8 @@
       </ul>
     </div>
   </nav>
-  <div x-data="carousel()" class="relative">
+  <!-- start hero -->
+  <div x-data="carousel()" class="relative z-0">
     <img class="h-128 w-full object-cover object-center" :src="images[selected]" alt="cars" />
 
     <button @click="if (selected> 0) {selected -= 1} else {selected = images.length - 1}"
@@ -88,8 +89,11 @@
   </script>
 
   <!-- Start Service -->
-  <div>
-    
+  <div class="grid grid-cols-4 gap-8 ml-72 mr-72 -mt-40">
+    <div class="bg-ps-blue h-80 z-10">1</div>
+    <div class="bg-ps-blue z-10">2</div>
+    <div class="bg-ps-blue z-10">3</div>
+    <div class="bg-ps-blue z-10">4</div>
   </div>
 </body>
 
