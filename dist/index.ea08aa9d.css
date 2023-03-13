@@ -595,6 +595,10 @@ img, video {
   margin-right: 1rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1758,6 +1762,18 @@ img, video {
 
 .pl-\[8px\] {
   padding-left: 8px;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-left {
