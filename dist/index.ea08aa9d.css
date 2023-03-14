@@ -2458,6 +2458,14 @@ img, video {
   transition-duration: .25s;
 }
 
+.duration-150 {
+  transition-duration: .15s;
+}
+
+.duration-500 {
+  transition-duration: .5s;
+}
+
 .ease-\[cubic-bezier\(0\.25\,0\.1\,0\.25\,1\.0\)\] {
   transition-timing-function: ease;
 }

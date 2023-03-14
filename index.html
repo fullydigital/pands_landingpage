@@ -83,7 +83,8 @@
 
   <!-- Start Service -->
   <div class="grid grid-cols-4 gap-8 mx-36 -mt-40 text-white text-center">
-    <div class="bg-ps-blue z-10 object-center">
+    <div id="service"
+      class="bg-ps-blue z-10 object-center block transform transistion-all duration-500 ease-out scale-0">
       <img src="./assets/icons8-leute-im-auto-100.png" alt="car icon" class="mx-auto mt-7">
       <h2 class="text-center text-2xl mt-4">Reifenwechsel</h2>
       <p class="text-sm m-6">Sicherheit auf der Straße: Jetzt Reifen wechseln lassen! Zuverlässiger Service,
@@ -91,26 +92,45 @@
         erledigt. Termin
         vereinbaren und beruhigt fahren!</p>
     </div>
-    <div class="bg-ps-blue z-10">
+    <div id="service-1"
+      class="bg-ps-blue z-10 object-center block transform transistion-all duration-500 ease-out scale-0">
       <img src="./assets/icons8-car-crash-100.png" alt="car icon" class="mx-auto mt-7">
       <h2 class="text-center text-2xl mt-4">Reparatur</h2>
       <p class="text-sm m-6">Ihr Auto braucht eine Reparatur? Vertrauen Sie unseren Experten!
         Zuverlässiger Service,
         faire Preise. Termin vereinbaren und wieder sicher fahren!</p>
     </div>
-    <div class="bg-ps-blue z-10">
+    <div id="service-2"
+      class="bg-ps-blue z-10 object-center block transform transistion-all duration-500 ease-out scale-0">
       <img src="./assets/icons8-autovermietung-100.png" alt="car icon" class="mx-auto mt-7">
       <h2 class="text-center text-2xl mt-4">TÜV</h2>
       <p class="text-sm m-6">Ist Ihr Auto TÜV-fällig? Kein Problem! Wir erledigen das schnell und zuverlässig. Termin
         vereinbaren und beruhigt fahren!</p>
     </div>
-    <div class="bg-ps-blue z-10">
+    <div id="service-3"
+      class="bg-ps-blue z-10 object-center block transform transistion-all duration-500 ease-out scale-0">
       <img src="./assets/icons8-auto-service-100.png" alt="car icon" class="mx-auto mt-7">
       <h2 class="text-center text-2xl mt-4">Kundendienst</h2>
       <p class="text-sm m-6">Gönnen Sie Ihrem Auto einen Kundendienst! Unsere Experten sorgen für beste Betreuung.
         Termin vereinbaren und sorgenfrei fahren!</p>
     </div>
   </div>
+  <script>
+    window.onload = function () {
+      setTimeout(function startAnimation() {
+        document.getElementById('service').classList.remove('scale-0');
+        document.getElementById('service').classList.add('scale-100');
+        document.getElementById('service-1').classList.remove('scale-0');
+        document.getElementById('service-1').classList.add('scale-100');
+        document.getElementById('service-2').classList.remove('scale-0');
+        document.getElementById('service-2').classList.add('scale-100');
+        document.getElementById('service-3').classList.remove('scale-0');
+        document.getElementById('service-3').classList.add('scale-100');
+
+        setTimeout(startAnimation, 800)
+      }, 800)
+    }
+  </script>
 
   <!-- Start about us -->
   <div class="mt-36 mx-36">
